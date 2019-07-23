@@ -1,0 +1,41 @@
+.App2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.container{
+     background-color: #ffffff;
+    border-radius: 10px;
+    width: 45%;
+    margin: 1% 0;
+}
+
+.container-head{
+    background-color: #F3394B;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 2.5%;
+}
+
+.container-body{
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.select{
+    padding: 1%;
+    border-radius: 5px;
+    outline: none;
+    margin: 1% 0;
+}
+
+.textarea{
+    border-radius: 5px;
+    padding: 1%;
+    resize: none;
+}
