@@ -19,3 +19,12 @@
    display: flex;
    flex-direction: column;
 }
+
+.item-info-p1{
+   margin: 5% 0;
+   background-color: #BB9DE5;
+   padding: 5% 0;
+   color: white;
+   text-align: center;
+   font-weight: bold
+}
