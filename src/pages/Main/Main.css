@@ -31,11 +31,12 @@
     padding: 1%;
     border-radius: 5px;
     outline: none;
-    margin: 1% 0;
+    margin: 1% 2%;
 }
 
 .textarea{
     border-radius: 5px;
     padding: 1%;
     resize: none;
+    margin: 1% 2%;
 }

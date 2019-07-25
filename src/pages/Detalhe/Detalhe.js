@@ -5,7 +5,6 @@ import './Detalhe.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faArrowLeft} from '@fortawesome/free-solid-svg-icons';
 
-import Button from '../../components/Button/Button';
 import {Link} from 'react-router-dom';
 
 export default class Detalhe extends Component{
@@ -22,7 +21,8 @@ export default class Detalhe extends Component{
                     <div className='container-body'>
                         <div>
                             <h3 className='item-titulo'>Titulo pacote</h3>
-                            <div className='item-status'>Status</div>
+                           
+                            <div className='item-status' style={{width: '45%'}}>Status</div>
                         </div>
                         <div style={{display: 'flex'}}>
                             <div style={{width: '35%', display: 'flex', padding: '5% 0', flexDirection: 'column', justifyContent: 'start'}}>
